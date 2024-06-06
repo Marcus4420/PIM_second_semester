@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78b28f3d-b64a-4ea1-9da5-2e2b5ea1f6fc" name="Changes" comment="Updated Edit page with extra functionality.&#10;Edit existing product in database works 80% - still missing the last functionality before everything is as it should be. But for now we can edit a existing product by name, description, price and stock. Remaining is color, categories and tags.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PIM/domain/SHOPtoPIMHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PIM/domain/SHOPtoPIMHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PIM/presentation/PIMApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PIM/presentation/PIMApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="PIMD/New_Dev_test_31-03-23" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NS9a9iYeYK6zV4HM1YYvDDZFvF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/morte/Documents/AllGitNothingButGit/e-commerce-prototype&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.30574712&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marcu\Desktop\Semesterprojekt\e-commerce-prototype\src\main\resources" />
+      <recent name="C:\Users\marcu\Desktop\Semesterprojekt\e-commerce-prototype\src\main\java\PIM\Frontend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marcu\Desktop\Semesterprojekt\e-commerce-prototype\src\main\resources\sem2pim" />
+      <recent name="C:\Users\marcu\Desktop\Semesterprojekt\e-commerce-prototype\src\main\resources" />
+      <recent name="C:\Users\marcu\Desktop\Semesterprojekt\e-commerce-prototype\src\main\java" />
+      <recent name="C:\Users\marcu\Desktop\Semesterprojekt\e-commerce-prototype\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SHOPtoPIMHandlerTest.getProductsReturnsSomething">
+    <configuration name="JavaFX" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="PIM.presentation.PIMApplication" />
+      <module name="e-commerce-prototype" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.FetchListOfProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PIM.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PIM.Database" />
+      <option name="MAIN_CLASS_NAME" value="PIM.Database.DatabaseTest" />
+      <option name="METHOD_NAME" value="FetchListOfProducts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseTest.searchProductsByNameTestImperfect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PIM.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PIM.Database" />
+      <option name="MAIN_CLASS_NAME" value="PIM.Database.DatabaseTest" />
+      <option name="METHOD_NAME" value="searchProductsByNameTestImperfect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SHOPtoPIMHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PIM.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PIM.Database" />
+      <option name="MAIN_CLASS_NAME" value="PIM.Database.SHOPtoPIMHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SHOPtoPIMHandlerTest.getProductByTagsReturnSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PIM.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PIM.Database" />
+      <option name="MAIN_CLASS_NAME" value="PIM.Database.SHOPtoPIMHandlerTest" />
+      <option name="METHOD_NAME" value="getProductByTagsReturnSomething" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SHOPtoPIMHandlerTest.getProductsReturnsSomething" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="e-commerce-prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PIM.Database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PIM.Database" />
+      <option name="MAIN_CLASS_NAME" value="PIM.Database.SHOPtoPIMHandlerTest" />
+      <option name="METHOD_NAME" value="getProductsReturnsSomething" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SHOPtoPIMHandlerTest.getProductsReturnsSomething" />
+        <item itemvalue="JUnit.DatabaseTest.FetchListOfProducts" />
+        <item itemvalue="JUnit.DatabaseTest.searchProductsByNameTestImperfect" />
+        <item itemvalue="JUnit.SHOPtoPIMHandlerTest.getProductByTagsReturnSomething" />
+        <item itemvalue="JUnit.SHOPtoPIMHandlerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b28f3d-b64a-4ea1-9da5-2e2b5ea1f6fc" name="Changes" comment="" />
+      <created>1679646682478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679646682478</updated>
+      <workItem from="1679646685171" duration="2283000" />
+      <workItem from="1679651865766" duration="66000" />
+      <workItem from="1679652138784" duration="431000" />
+      <workItem from="1679656410265" duration="3075000" />
+      <workItem from="1679998363722" duration="5036000" />
+      <workItem from="1680259352772" duration="3205000" />
+      <workItem from="1680608579840" duration="18698000" />
+      <workItem from="1681196529127" duration="4517000" />
+      <workItem from="1681461134945" duration="5153000" />
+      <workItem from="1681470564116" duration="1729000" />
+      <workItem from="1681472665367" duration="1956000" />
+      <workItem from="1681481780061" duration="7459000" />
+      <workItem from="1681574027764" duration="4331000" />
+      <workItem from="1681819288887" duration="2330000" />
+      <workItem from="1683624051580" duration="859000" />
+      <workItem from="1684173593920" duration="137000" />
+    </task>
+    <task id="LOCAL-00001" summary="New edit button on search page and new Page/Tab for editing the product.&#10;New function in Controller class that retrieves a string (Name) of the selected product in the Observable List. Finds the matching product in the database and sets the text on the Edit page/tab.&#10;Missing functionality: Retrieving tags and getting categories and colors on list.">
+      <created>1681143752820</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681143752821</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated Edit page with extra functionality.&#10;Edit existing product in database works 80% - still missing the last functionality before everything is as it should be. But for now we can edit a existing product by name, description, price and stock. Remaining is color, categories and tags.">
+      <created>1681157545542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681157545542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="searchProductsNameTest and capacitytest">
+      <created>1684224743866</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684224743866</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New edit button on search page and new Page/Tab for editing the product.&#10;New function in Controller class that retrieves a string (Name) of the selected product in the Observable List. Finds the matching product in the database and sets the text on the Edit page/tab.&#10;Missing functionality: Retrieving tags and getting categories and colors on list." />
+    <MESSAGE value="Updated Edit page with extra functionality.&#10;Edit existing product in database works 80% - still missing the last functionality before everything is as it should be. But for now we can edit a existing product by name, description, price and stock. Remaining is color, categories and tags." />
+    <MESSAGE value="searchProductsNameTest and capacitytest" />
+    <option name="LAST_COMMIT_MESSAGE" value="searchProductsNameTest and capacitytest" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IPersistenceHandler_java$JavaFX.ic" NAME="JavaFX Coverage Results" MODIFIED="1681468362951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IPersistenceHandler_java$DatabaseTest_databaseCapacityTest.ic" NAME="DatabaseTest.databaseCapacityTest Coverage Results" MODIFIED="1683027981969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PIM.Database.*</FILTER>
+    </SUITE>
+  </component>
+</project>
